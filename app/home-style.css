@@ -5,15 +5,25 @@ html, body {
   background: #ebebeb;
 }
 
+a {
+	color: #b00019;
+	text-decoration: none; 
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
 .container {
   align-items: center;
   display: flex;
   flex-wrap: wrap;
   height: 100%;
   justify-content: center;
+  flex-direction: column;
 }
 
-.container .image img {
+.container img {
 	width: 250px;
   border-radius: 50%;
 }
