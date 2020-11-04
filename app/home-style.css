@@ -1,0 +1,30 @@
+html, body {
+  height: 100vh;
+  margin: 0;
+  font-family: Roboto;
+  background: #ebebeb;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  justify-content: center;
+}
+
+.container .image img {
+	width: 250px;
+  border-radius: 50%;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1 span {
+	color: #b00019;
+	font-style: italic;
+}
